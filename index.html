@@ -1,55 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> HTML </title>
-    </head>
-    
-    <body style="background-color: #F5F7F8; text-align: center; padding: 30px;"> 
-        
-        <h1 style="color: #2C3333;"> HyperText Markup Language (HTML) </h1>
-        
-        <section style="margin-bottom: 40px;">
-        <h2 style="color: #2C3333;"> <strong> What is a Website? </strong> </h2>
-        <p style="color: #4F4F4F; font-size: 20px;"> A website is a collection of related web pages 
-            that are connected under a single domain name (like www.google.com). 
-            It is stored on a web server and can be accessed through 
-            the internet using a browser. </p>
-        <p style="color: #4F4F4F; font-size: 20px;"> EXAMPLE: Google, Wikipedia, all are websites. </p>
-        <img src="https://png.pngtree.com/template/20190723/ourmid/pngtree-website-or-internet-line-art-icon-for-apps-and-websites-image_253041.jpg" 
-        alt = "website logo" width="200">
-            
-        </section>
-        <section style="margin-bottom: 40px;">
-        <h2 style="color: #2C3333;"> <strong> What is a WebPage? </strong> </h2>
-        <p style="color: #4F4F4F; font-size: 20px;"> A WebPage is a single document on the internet. 
-            It is like one page of a book-part of the full website. 
-            It is written in a coding language (usually HTML) 
-            and displayed through a web browser. </p>
-        <p style="color: #4F4F4F; font-size: 20px;"> EXAMPLE: <a href = "https://en.wikipedia.org/wiki/HTML"
-            target="_blank">Wikipedia HTML page</a>
-            <br>(web page of the wikipedia website) </p>
-        <img src="https://tomdehnel.com/wp-content/uploads/2020/10/wikipedia-home-page.jpeg" 
-        alt = "Webpage of wikipedia" width="200">
-        </section>
-        
-        <section style="margin-bottom: 40px;">
-        <h2 style="color: #2C3333;"> <strong> What is HTML? </strong> </h2>
-        <p style="color: #4F4F4F; font-size: 20px;"> HTML stands for HyperText Markup language. 
-            It is a standard language used to create and design web pages.
-            <br>
-            Think of HTML as the bones of a webpage - it gives structure,
-            just like a skeleton gives structure to the body. 
-            It is the code that is used to structure a web page and 
-            its content.
-            <br>
-            It tells the browser what to show-headings, text, images, links etc. </p>
-            <p style="color: #4F4F4F; font-size: 20px;"> HTML = Structure </p>
-            <p style="color: #4F4F4F; font-size: 20px;"> CSS = Style </p>
-            <p style="color: #4F4F4F; font-size: 20px;"> JavaScript = Behavior </p>
-        <img src="https://www.pngfind.com/pngs/m/683-6834215_html-css-js-icon-hd-png-download.png"
-        alt = "image of HTML, CSS and JavaScript" width="200">
-        </section>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Notes</title>
+    <style>
+        body {
+            background-color: #F5F7F8;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        h1, h2 {
+            color: #2C3333;
+        }
+        p {
+            color: #4F4F4F;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        img {
+            width: 200px;
+            margin-top: 10px;
+        }
+        a {
+            color: #2C3333;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HyperText Markup Language (HTML)</h1>
+
+    <section>
+        <h2><strong>What is a Website?</strong></h2>
+        <p>A website is a collection of related web pages that are connected under a single domain name (like www.google.com). It is stored on a web server and can be accessed through the internet using a browser.</p>
+        <p>EXAMPLE: Google, Wikipedia, all are websites.</p>
+        <img src="https://png.pngtree.com/template/20190723/ourmid/pngtree-website-or-internet-line-art-icon-for-apps-and-websites-image_253041.jpg" alt="website logo">
+    </section>
+
+    <section>
+        <h2><strong>What is a WebPage?</strong></h2>
+        <p>A WebPage is a single document on the internet. It is like one page of a book—part of the full website. It is written in a coding language (usually HTML) and displayed through a web browser.</p>
+        <p>EXAMPLE: 
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia HTML page</a><br>
+            (web page of the Wikipedia website)
+        </p>
+        <img src="https://tomdehnel.com/wp-content/uploads/2020/10/wikipedia-home-page.jpeg" alt="Webpage of wikipedia">
+    </section>
+
+    <section>
+        <h2><strong>What is HTML?</strong></h2>
+        <p>HTML stands for HyperText Markup Language. It is a standard language used to create and design web pages.</p>
+        <p>Think of HTML as the bones of a webpage—it gives structure, just like a skeleton gives structure to the body. It is the code that is used to structure a web page and its content.</p>
+        <p>It tells the browser what to show—headings, text, images, links etc.</p>
+        <p>HTML = Structure</p>
+        <p>CSS = Style</p>
+        <p>JavaScript = Behavior</p>
+        <img src="https://www.pngfind.com/pngs/m/683-6834215_html-css-js-icon-hd-png-download.png" alt="image of HTML, CSS and JavaScript">
+    </section>
+
+    <section>
+        <h2><strong>Angle Brackets</strong></h2>
+        <p>Angle brackets are used in HTML to define tags, which are the building blocks of a webpage.</p>
+        <p>These tags tell the browser what type of content is being written and how to display it.</p>
+        <p>Tags written in angle brackets help separate HTML instructions from the actual text content, allowing the browser to properly render headings, paragraphs, links, images, and more.</p>
+        <p>Without <code>&lt;&gt;</code>, the browser would not recognize the tags as HTML code and wouldn't display the content correctly.</p>
+    </section>
+
+    <section>
+        <h2><strong>What are HTML tags?</strong></h2>
+        <p>They are the building blocks of an HTML document. They are special code written inside angle brackets that tell the web browser how to display content on a webpage.</p>
+    </section>
+
+</body>
 </html>
 
+  
